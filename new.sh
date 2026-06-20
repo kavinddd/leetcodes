@@ -11,5 +11,5 @@ next=$((latest + 1))
  
 dir="${next}_$1"
 mkdir "$dir"
-cp "new_template.ts" "$dir/index.ts"
+cp "new_template.java" "$dir/Solution.java"
 echo "Created: $dir"
